@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --bs-primary: #4564e5;
+  --soft-blue: #f1f5fb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serifl;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-soft-blue {
+  background-color: var(--soft-blue);
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: var(--bs-primary);
+}
+
+.form-control,
+.btn {
+  border-radius: 10px;
+  padding: 10px 18px;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+}
+
+.card-body {
+  padding: 3rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.logo span {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #212529;
+}
+
+section {
+    padding: 70px 0;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 40px 0;
+    }
+}
+
+.article img {
+    transition: .2s ease-in;
+}
+
+.article:hover img {
+    filter: blur(1.5px);
+}
+
+.article h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #212529;
+    transition: .2s ease-in;
+}
+
+.article:hover h3 {
+    color: #4564e5;
+}
+
+.link {
+    color: #6c757d;
+}
+
+.link:hover {
+    color: #4564e5;
+}
